@@ -179,7 +179,7 @@ class Edge:
         edge = ET.Element("edge", id=str(self.edge_id), source=str(self.node1), target=str(self.node2))
 
         if self.edge_description:
-            data_description = ET.SubElement(node, "data", key="d8")
+            data_description = ET.SubElement(edge, "data", key="d8")
             data_description.set("xml:space", "preserve")
             data_description.text = self.edge_description
 
