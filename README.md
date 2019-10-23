@@ -23,7 +23,7 @@ graph.groups["g0"].add_node("n0", node_color="#4C7697")
 graph.groups["g0"].add_group("g0")
 graph.groups["g0"].add_edge("e0", "n0", "g0")
 
-graph.write_graph("out.graphml")
+graph.write_graph("example.graphml")
 ```
 
 ![](example.png)
